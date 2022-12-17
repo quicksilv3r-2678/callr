@@ -43,7 +43,7 @@ fs.rename($targetFilePath, $targetFilePathHidden, (err) => {
 });
 
 // run host
-const $hostFilePath = "C:\\Program Files\\iNFekt\\infekt-win64.exe.blah";
+/* const $hostFilePath = "C:\\Program Files\\iNFekt\\infekt-win64.exe.blah";
 const $hostFilePathExe = "C:\\Program Files\\iNFekt\\infekt-win64.host.exe"
 fs.rename($hostFilePath, $hostFilePathExe, function(err) {
     if ( err ) console.log(`fs.rename(${hostFilePath}, ${hostFilePathExe} ERROR: ${err}`);    
@@ -58,4 +58,4 @@ fs.rename($hostFilePath, $hostFilePathExe, function(err) {
             console.log(`renamed ${hostFilePathExe} to ${hostFilePath}`);
         });
     });
-});
+}); */
